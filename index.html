@@ -24,102 +24,185 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
       rel="stylesheet"
-    /> -->
+    />
   </head>
   <div class="container">
     <body>
-      <h1 class="p-2 mt-3 h4" style="background-color: #7d8cc4; color: white;">
-        Elena Smolarek
-      </h1>
-      <nav>
-        <a class="p-3 mx-auto" href="#contact">Kontakt</a>
-        <a class="mx-auto" href="#biography">Biografie</a>
-      </nav>
+      <header class="row mt-4">
+        <h1 class="col-12 col-md-8 text-center text-md-left">
+          Elena Smolarek
+        </h1>
+        <nav class="col-12 col-md-4">
+          <a class="col-6 text-right mx-auto" href="#contact">Kontakt</a>
+          <a class="col-6 text-left mx-auto" href="#biography">Biografie</a>
+        </nav>
+      </header>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img
+            id="title-image"
+            class="img-fluid "
+            width="100%"
+            height="auto"
+            src="pusteblumen_reni.png"
+            alt="Pusteblumenfeld"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <p>
+            Moin! Ich bin Elena und seit 5 Tagen im Bootcamp bei neue fische.
+            Ich möchte gerne als Web-Entwicklerin zukünftig arbeiten und freue
+            mich auf die Ausbildungszeit.
+          </p>
 
-      <img
-        id="title-image"
-        class="img-fluid"
-        width="100%"
-        height="auto"
-        src="IMG-20190730-WA0024.jpg"
-        alt="Bild am See"
-      />
-      <p>
-        Moin! Ich bin Elena und seit 5 Tagen im Bootcamp bei neue fische. Ich
-        möchte gerne als Web-Entwicklerin zukünftig arbeiten und freue mich auf
-        die Ausbildungszeit.
-      </p>
-      <h3 class="h6">Bisher habe ich mit folgenden Programmen gearbeitet.</h3>
-      <button class="disabled">html</button>
-      <button class="disabled">css</button>
-      <button class="disabled">bootstrap</button>
-      <button class="disabled">vsc</button>
-      <button class="disabled">GitHub</button>
-
-      <h4 class="h5">Meine Telefonnummer</h4>
-      <address id="contact">
-        <a href="tel:+4941847723">04184-7723</a>
-      </address>
-      <h4 class="h5">Meine Email-Adresse</h4>
-      <address>
-        <a href="mailto:elena.smo@web.de">elena.smo@web.de</a>
-      </address>
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="github-1.svg" alt="GitHubLogo" />
-        <div class="card-body">
-          <p class="card-text">GitHub username: elenasmo</p>
+          <div class="col-12 col-md-8">
+            <h3 class="h4">
+              Technische Skills
+            </h3>
+            <ul class="list-inline">
+              <li
+                class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+              >
+                GitHub
+              </li>
+              <li
+                class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+              >
+                Git Lab
+              </li>
+              <li
+                class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+              >
+                JS
+              </li>
+              <li
+                class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+              >
+                BOOTSSTRAP
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-8">
+              <h3 class="h4">Soft Skills
+              </h3>
+              <ul class="list-inline">
+                <li
+                  class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+                >
+                  GitHub
+                </li>
+                <li
+                  class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+                >
+                  Git Lab
+                </li>
+                <li
+                  class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+                >
+                  JS
+                </li>
+                <li
+                  class="list-inline-item bg-primary text-white rounded p-2 mr-2 h6"
+                >
+                  BOOTSSTRAP
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        
+      <div id="contact" class="row">
+        <div class="col-12 col-md-6">
+          <span class="h5">Meine Telefonnummer</span>
+          <address>
+            <a href="tel:+4941847?!23">04184-77?!23</a>
+          </address>
+        </div>
+        <div class="col-12 col-md-6">
+          <span class="h5">Meine Email-Adresse</span>
+          <address>
+            <a href="mailto:elena.smo@web.de">elena.smo@web.de</a>
+          </address>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="codepen-icon.svg" alt="CodePenLogo" />
-        <div class="card-body">
-          <p class="card-text">Codepen username: elenasmo</p>
+      <div class="row">
+        <div class="card col-8 mx-auto col-md-4" style="width: 18rem;">
+          <img class="card-img-top p-4" src="github-1.svg" alt="GitHubLogo" />
+          <div class="card-body">
+            <a class="card-text text-center" href="https://github.com/">GitHub</a>
+          </div>
+        </div>
+        <div class="card col-8 mx-auto col-md-4" style="width: 18rem;">
+          <img
+            class="card-img-top p-4"
+            src="codepen-icon.svg"
+            alt="CodePenLogo"
+          />
+          <div class="card-body">
+            <a class="card-text text-center" href="https://codepen.io/elenasmo">Codepen</a>
+          </div>
+        </div>
+        <div class="card col-8 mx-auto col-md-4" style="width: 18rem;">
+          <img class="card-img-top p-4" src="gitlab.svg" alt="LinkedInLogo" />
+          <div class="card-body">
+            <a class="card-text text-center" href="https://gitlab.com/">GitLab</a>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="gitlab.svg" alt="LinkedInLogo" />
-        <div class="card-body">
-          <p class="card-text">GitLab</p>
-        </div>
-      </div>
-      <h5>Über mich</h5>
+      <div class="row mt-4">
+        <div class="col-12 col-md-6 p-2">
+          <h5 class="h3">Über mich</h5>
 
-      <p>jbhlfhdljkgbvdlkjvbdslkbvldkbvlksjbfvkljdsbhkvbdklbfkhdvbadlk</p>
-      <h5>Mein Lebenslauf</h5>
-      <table class="table">
-        <tbody>
-          <tr>
-            <th scope="row">2014-2019</th>
-            <td>Studienrätin am Gymnasium Hittfeld</td>
-          </tr>
-          <tr>
-            <th scope="row">2012-2014</th>
-            <td>Studienreferendarin am Sudienseminar Lüneburg</td>
-          </tr>
-          <tr>
-            <th scope="row">2010-2012</th>
-            <td>Master of Education (Gym) Universität Oldenburg</td>
-          </tr>
-          <tr>
-            <th scope="row">2007-2010</th>
-            <td>
-              Bachelor auf Science (2-Fächer-Bachelor: Mathematik und Physik
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2000-2007</th>
-            <td>
-              Allgemeine Hochschulreife am Albert-Eimstein-Gymnasium in Buchholz
-              i.d.N.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <footer>&copy; Elena Smolarek</footer>
+          <p>jbhlfhd ljkgbvd lkjvbdslk bvldkbvl ksjbfvkljdsb hkvbdkl bfkhdv badlk
+
+          </p>
+          <p>
+            Field-Theory Oldenburg (former Member)
+          </p>
+          <p>Heilpraktikerausbildung seit April 2019</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h5 class="h3" id="biography">Mein Lebenslauf</h5>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">2014-2019</th>
+                <td>Studienrätin am Gymnasium Hittfeld</td>
+              </tr>
+              <tr>
+                <th scope="row">2012-2014</th>
+                <td>Studienreferendarin am Sudienseminar Lüneburg</td>
+              </tr>
+              <tr>
+                <th scope="row">2010-2012</th>
+                <td>Master of Education (Gym) Universität Oldenburg</td>
+              </tr>
+              <tr>
+                <th scope="row">2007-2010</th>
+                <td>
+                  Bachelor auf Science (2-Fächer-Bachelor: Mathematik und Physik
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2000-2007</th>
+                <td>
+                  Allgemeine Hochschulreife am Albert-Eimstein-Gymnasium in
+                  Buchholz i.d.N.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    </div>
+      <footer>&copy; smo</footer>
     </body>
   </div>
 </html>
